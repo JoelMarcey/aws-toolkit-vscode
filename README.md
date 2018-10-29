@@ -38,6 +38,10 @@ npm run package
 code --install-extension aws-toolkit-vscode-<VERSION>.vsix
 ```
 
+> For MacOS, `code` is not automatically available in your `PATH`. To use `code`, you will need to [install the command into your `PATH` from VSCode](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line). 
+
+> You can obtain `<VERSION>` from the output of `npm run package`. e.g., `Created: /Users/joelm/dev/aws-toolkit-vscode/aws-toolkit-vscode-0.0.1.vsix`, where `<VERSION>` is `0.0.1`. 
+
 ### Sign in to your AWS account
 
 #### Create a profile
